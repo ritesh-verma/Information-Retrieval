@@ -24,8 +24,6 @@ public class Driver {
         stopWords.createStopWordsList();
         Tokenizer tokenizer = new Tokenizer(fp, stopWords);
         tokenizer.Tokenize();
-//        tokenizer.displayTokens();
         tokenizer.writeOutput();
-
     }
 }
